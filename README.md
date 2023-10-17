@@ -7,19 +7,27 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Warehouse-management-full
+# About Warehouse-management-full
 
 Aplikasi ini adalah pengembangan dari TEGARmine/mini-gudang-laravel. Source Code ini adalah open source code warehouse / sistem gudang untuk penjualan / pembelian bagi pengusaha yang membutuhkan aplikasi reporting, management product, management penjualan, management pengeluaran / purchase.
 
-fitur meliputi 
+## fitur meliputi 
 
 - Management Stok (include Commision)
 - Management Sales (Sales/CS)
 - Management Purchase (untuk pengeluaran barang)
 
-Ongoing Update
+## Ongoing Update
 
 - Reporting Ads For Fbads (ROI, ROAS) dengan rumus yang sudah ditentukan dan dijalankan oleh saya dan member [adslab.pro](https://adslab.pro/) [PREMIUM]
 - List Lead / Pelanggan, untuk memudahkan kamu menghandle pelanggan / mempunyai database pelanggan sendiri [PREMIUM]
 - List Handling Status Pemesanan dan Mengirimkan pesan langsung ke Customer Melalui Dashboard Panel / Follow up Melalui Dashboard [PREMIUM]
 - Live Tracking Ekpedisi [PREMIUM]
+
+
+# Installation
+- Step 1 : ```git clone https://github.com/mzcoder-hub/warehouse-management-full.git```
+- Step 2 : ```composer install```
+- Step 3 : ```php artisan migrate:fresh --seed```
+
+Default username and password can be found in `database\seeders\UserSeeder.php`
